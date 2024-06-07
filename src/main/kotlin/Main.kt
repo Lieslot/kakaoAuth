@@ -134,5 +134,6 @@ fun main(args : Array<String>) {
         }
     } catch (e: ParseException) {
         printUsage(appName)
+        println("hello")
     }
 }
